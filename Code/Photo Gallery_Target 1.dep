@@ -1,0 +1,22 @@
+Dependencies for Project 'Photo Gallery', Target 'Target 1': (DO NOT MODIFY !)
+F (.\Startup.s)(0x532C3812)(--cpu ARM7TDMI --pd "__EVAL SETA 1" -g --apcs=interwork -I "C:\Program Files\Keil\ARM\RV31\INC"-I "C:\Program Files\Keil\ARM\CMSIS\Include"-I "C:\Program Files\Keil\ARM\Inc\Philips"--list .\startup.lst --xref -o .\output\startup.o --depend .\output\startup.d)
+F (.\main.c)(0x5A5727D5)(-c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork -I "C:\Program Files\Keil\ARM\RV31\INC"-I "C:\Program Files\Keil\ARM\CMSIS\Include"-I "C:\Program Files\Keil\ARM\Inc\Philips"-o .\output\main.o --omf_browse .\output\main.crf --depend .\output\main.d)
+I (lib/Config.h)(0x5880A3EB)
+I (C:\Program Files\Keil\ARM\Inc\Philips\lpc214x.h)(0x532C3828)
+I (lib/target.h)(0x5880A457)
+I (C:\Program Files\Keil\ARM\ARMCC\include\stdio.h)(0x51C80BA4)
+I (lib/T6963C.h)(0x5A5727E6)
+I (C:\Program Files\Keil\ARM\ARMCC\include\string.h)(0x51C80BA4)
+I (lib/images.h)(0x5A571ACA)
+I (lib/spi.h)(0x5A56650B)
+I (lib/SD.h)(0x5880A547)
+I (C:\Program Files\Keil\ARM\ARMCC\include\stdlib.h)(0x51C80BA4)
+I (C:\Program Files\Keil\ARM\ARMCC\include\ctype.h)(0x51C80BA4)
+I (C:\Program Files\Keil\ARM\ARMCC\include\inttypes.h)(0x51C80BA4)
+I (C:\Program Files\Keil\ARM\ARMCC\include\stdint.h)(0x51C80BA4)
+F (.\spi.c)(0x5880A3EB)(-c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork -I "C:\Program Files\Keil\ARM\RV31\INC"-I "C:\Program Files\Keil\ARM\CMSIS\Include"-I "C:\Program Files\Keil\ARM\Inc\Philips"-o .\output\spi.o --omf_browse .\output\spi.crf --depend .\output\spi.d)
+I (C:\Program Files\Keil\ARM\Inc\Philips\lpc214x.h)(0x532C3828)
+F (.\SD.c)(0x5A56651C)(-c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork -I "C:\Program Files\Keil\ARM\RV31\INC"-I "C:\Program Files\Keil\ARM\CMSIS\Include"-I "C:\Program Files\Keil\ARM\Inc\Philips"-o .\output\sd.o --omf_browse .\output\sd.crf --depend .\output\sd.d)
+I (lib/SD.h)(0x5880A547)
+I (C:\Program Files\Keil\ARM\Inc\Philips\lpc214x.h)(0x532C3828)
+I (lib/spi.h)(0x5A56650B)
